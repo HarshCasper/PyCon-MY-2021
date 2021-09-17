@@ -1,0 +1,26 @@
+theme = "reveal-hugo"
+disableKinds = ["taxonomy", "term", "sitemap", "RSS"]
+baseURL = "https://pycon-my.harshcasper.com"
+
+[params]
+useMath = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
+
+[markup.highlight]
+codeFences = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params.reveal_hugo]
+custom_theme = "custom-theme.scss"
+custom_theme_compile = true
+# load_default_plugins = false
+highlight_theme = "monokai-sublime"
+width = 1280
+height = 720
+transition_speed = "fast"
