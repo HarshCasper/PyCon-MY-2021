@@ -34,6 +34,7 @@ Harsh Mishra
 - {{< frag c="Slow and painful migration of legacy codebases. Example: Java -> Node JS" >}}
 - {{< frag c="Lack of interoperability between libraries across languages. Example: Python -> NodeJS" >}}
 - {{< frag c="Embedding low level libraries or scripts in high-level environments." >}}
+
 ---
 
 # Introduction to Polyglot development
@@ -49,6 +50,7 @@ Harsh Mishra
 - {{< frag c="Help developers find the best possible solution through any framework/library possible." >}}
 - {{< frag c="Mix toolings, scripts, libraries amongst multiple languages without any friction." >}}
 - {{< frag c="Embed low-level and high-level code without sacrificing any portability and interoperability." >}}
+
 ---
 
 # What is MetaCall?
@@ -61,6 +63,7 @@ It brings forward:
 - {{< frag c="Cross-language imports." >}}
 - {{< frag c="Multiple language support through a CLI and runtime." >}}
 - {{< frag c="N:N interoperability with a transparent API." >}}
+
 ---
 
 # Demonstration
@@ -83,6 +86,7 @@ sum(3, 4); // 7
 ```sh
 metacall main.js
 ```
+
 ---
 
 # Installation
@@ -97,6 +101,7 @@ wget -O - https://raw.githubusercontent.com/metacall/install/master/install.sh |
 # Installation using Docker
 docker pull metacall/core
 ```
+
 ---
 
 # Architecture of MetaCall
