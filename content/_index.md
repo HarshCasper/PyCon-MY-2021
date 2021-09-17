@@ -129,23 +129,11 @@ docker pull metacall/core
 
 # Understanding Loaders
 
-{{% grid middle %}}
-
-{{< g 1 >}}
 {{< figure src="images/metacall-loader.png" height="280px" >}}
 
-
-{{< /g >}}
-
-{{< g 1 >}}
-
-- Loaders are used for embedding languages into MetaCall.
-- Act as plugins for a common interface wrapping the runtimes.
-- Loading them dynamically during execution.
-
-{{< /g >}}
-
-{{% /grid %}}
+- {{< frag c="Loaders are used for embedding languages into MetaCall." >}}
+- {{< frag c="Act as plugins for a common interface wrapping the runtimes." >}}
+- {{< frag c="Loading them dynamically during execution." >}}
 
 ---
 
