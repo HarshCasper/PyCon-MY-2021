@@ -171,6 +171,18 @@ What are we going to do?
 
 ---
 
+# Projects built using MetaCall
+
+{{< examples >}}
+
+---
+
+# Q&A 
+
+## Any questions?
+
+---
+
 # Thanks!
 
 {{% grid middle %}}
